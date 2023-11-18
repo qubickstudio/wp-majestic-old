@@ -1,0 +1,46 @@
+/*
+Theme Name: Qubick Wordpress Template
+Theme URI: https://qubick.id
+Author: Qubick.id & Atdawn
+Author URI: https://qubick.id
+Description: Custom Template for Majestic
+Version: 1.0.0
+Text Domain: my-custom-theme
+Tags: custom-background
+*/
+
+@font-face {
+	font-family: DarkerGrotesque-Bold;  
+	src: url("/fonts/DarkerGrotesque-Bold.woff") format('truetype');  
+}
+@font-face {
+	font-family: Metal-Reguler;  
+	src: url("/fonts/Metal-Regular.woff") format('truetype');  
+}
+@font-face {
+	font-family: DarkerGrotesque-Medium;  
+	src: url("/fonts/DarkerGrotesque-Medium.woff") format('truetype');  
+}
+@font-face {
+	font-family: Lato-MediumItalic;  
+	src: url("/fonts/Lato-MediumItalic.woff") format('truetype');  
+}
+@font-face {
+	font-family: Lato-Regular;  
+	src: url("/fonts/Lato-Regular.woff") format('truetype');  
+}
+@font-face {
+	font-family: Lora-MediumItalic;  
+	src: url("/fonts/Lora-MediumItalic.woff") format('truetype');  
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5; /* Adjust the opacity to make it more or less transparent */
+    z-index: 1; /* Make sure the overlay appears above other elements */
+}
