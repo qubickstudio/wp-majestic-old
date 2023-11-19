@@ -44,3 +44,9 @@ Tags: custom-background
     opacity: 0.5; /* Adjust the opacity to make it more or less transparent */
     z-index: 1; /* Make sure the overlay appears above other elements */
 }
+
+/* for navbar scroll */
+.bg-with-gradient {
+    background: rgba(0, 0, 0, 0.9);
+    transition: 1.5s ease;
+}

@@ -13,6 +13,7 @@ export default defineConfig({
                 "footer-events": "footer-events.html",
                 "footer-events-detail": "footer-events-detail.html",
                 "footer-reach-us": "footer-reach-us.html",
+                "navbar": "navbar.html",
             }
         },
     },
